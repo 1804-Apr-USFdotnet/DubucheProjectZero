@@ -45,11 +45,21 @@
   <ItemGroup>
     <Compile Include="DeSerialize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestaurantDisplays.cs" />
     <Compile Include="Restaurants.cs" />
+    <Compile Include="RestaurantSearch.cs" />
+    <Compile Include="RestaurantSort.cs" />
+    <Compile Include="ReviewDisplays.cs" />
     <Compile Include="Serialize.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dubuche.DAL\Dubuche.DAL.csproj">
+      <Project>{52931ad8-1004-4dbe-9e76-173d2edb6336}</Project>
+      <Name>Dubuche.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

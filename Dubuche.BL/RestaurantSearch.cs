@@ -3,16 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
 
 namespace Dubuche.BL
 {
-    public class Serialize
+    class RestaurantSearch
     {
-        public class RestuarantSerializer
-        {
-            //public List<Restuarants>
-
-        }
     }
 }

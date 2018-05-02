@@ -57,5 +57,15 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dubuche.BL\Dubuche.BL.csproj">
+      <Project>{6544296e-cc06-4a04-84a1-5a67025278a6}</Project>
+      <Name>Dubuche.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dubuche.DAL\Dubuche.DAL.csproj">
+      <Project>{52931ad8-1004-4dbe-9e76-173d2edb6336}</Project>
+      <Name>Dubuche.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

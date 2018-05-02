@@ -14,7 +14,7 @@ namespace Dubuche.BL
         public string Website { get; set; }
         public string Phone { get; set; }
         public double Rating { get; set; }
-        public List<Restaurants> Reviews = new List<Restaurants>();
+        public List<Reviewers> Reviews = new List<Reviewers>();
 
     }
 

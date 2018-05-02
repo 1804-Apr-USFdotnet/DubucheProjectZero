@@ -8,5 +8,6 @@ namespace Dubuche.DAL
 {
     public class Class1
     {
+
     }
 }

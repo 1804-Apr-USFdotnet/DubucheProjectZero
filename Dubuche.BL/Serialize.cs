@@ -7,7 +7,11 @@ using Newtonsoft.Json;
 
 namespace Dubuche.BL
 {
-    class Serialize
+    public class Serialize
     {
-    }
+        public class RestuarantSerializer
+        {
+            //public List<Restuarants>
+
+        }
 }

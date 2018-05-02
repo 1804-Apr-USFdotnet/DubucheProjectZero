@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="DeSerialize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Restaurants.cs" />
     <Compile Include="Serialize.cs" />
   </ItemGroup>
   <ItemGroup>

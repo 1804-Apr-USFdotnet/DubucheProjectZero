@@ -56,97 +56,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Category.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
     <Compile Include="Class1.cs" />
-    <Compile Include="Customer.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Dubuche.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Dubuche.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Dubuche.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Dubuche.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Dubuche.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Employee.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EmpOrder.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="GetNums_Result.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Num.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Order.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="OrderDetail.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="OrderValue.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Product.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Score.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Shipper.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sp_helpdiagrams_Result.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Supplier.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sysdiagram.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Test.cs">
-      <DependentUpon>Dubuche.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <EntityDeploy Include="Dubuche.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Dubuche.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="Dubuche.edmx.diagram">
-      <DependentUpon>Dubuche.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Dubuche.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Dubuche.edmx</DependentUpon>
-      <LastGenOutput>Dubuche.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Dubuche.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Dubuche.edmx</DependentUpon>
-      <LastGenOutput>Dubuche.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

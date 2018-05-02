@@ -7,22 +7,26 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Dubuche.DAD
+namespace Dubuche.DAL
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Test
+    public partial class Restaurant
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Test()
+        public Restaurant()
         {
-            this.Scores = new HashSet<Score>();
+            this.Reviewers = new HashSet<Reviewer>();
         }
     
-        public string testid { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public string Website { get; set; }
+        public string Phone { get; set; }
+        public int Id { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Score> Scores { get; set; }
+        public virtual ICollection<Reviewer> Reviewers { get; set; }
     }
 }

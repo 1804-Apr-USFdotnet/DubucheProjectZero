@@ -7,17 +7,19 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Dubuche.DAD
+namespace Dubuche.DAL
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class sysdiagram
+    public partial class Reviewer
     {
-        public string name { get; set; }
-        public int principal_id { get; set; }
-        public int diagram_id { get; set; }
-        public Nullable<int> version { get; set; }
-        public byte[] definition { get; set; }
+        public string Name { get; set; }
+        public string Comment { get; set; }
+        public int Rating { get; set; }
+        public int RestaurantId { get; set; }
+        public int Id { get; set; }
+    
+        public virtual Restaurant Restaurant { get; set; }
     }
 }

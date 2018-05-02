@@ -8,6 +8,8 @@ namespace Dubuche.BL
 {
     public class Restaurants
     {
+        public Restaurants() { }
+        public Restaurants(string newName) { Name = newName; } 
         public int Id { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }

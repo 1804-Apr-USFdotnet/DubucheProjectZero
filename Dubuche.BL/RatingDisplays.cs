@@ -3,15 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
 using Dubuche.DAL;
 
 namespace Dubuche.BL
 {
-    public class ReviewDisplays
+    public class RatingDisplays
     {
-        //public static Reviewers
+        public List<Reviewers> AvgRatings(List<Reviewers> rates)
+        {
+            return rates.OrderByDescending(r => r.Rating).ToList();
+        }
             
-        //LINQ statements
+        
     }
 }
 //Basic Requirements

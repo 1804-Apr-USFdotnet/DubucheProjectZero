@@ -3,12 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
 using Dubuche.DAL;
 
 namespace Dubuche.BL
 {
-    class RestaurantSearch
+    public class RestaurantSearch
     {
+        public void RestaurantsByName(string name)
+        {
+            //similar to the sort
+        }
     }
 }
 //Basic Requirements

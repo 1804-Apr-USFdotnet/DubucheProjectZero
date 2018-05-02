@@ -3,14 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
 using Dubuche.DAL;
 
 namespace Dubuche.BL
 {
-    class RestaurantDisplays
+    public class RestaurantDisplays
     {
+        public List<Restaurants> rests = new List<Restaurants>();
+        public List<Restaurants> rests2 = new List<Restaurants>();
+        public List<Reviewers> rates = new List<Reviewers>();
+
     }
+
+    
 }
+    
+//Restaurants db = new Restaurants();
+
+
 //Basic Requirements
 // ## functionality
 //* display top 3 restaurants by average rating

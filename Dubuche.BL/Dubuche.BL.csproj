@@ -45,11 +45,12 @@
   <ItemGroup>
     <Compile Include="DeSerialize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestaurantCRUD.cs" />
     <Compile Include="RestaurantDisplays.cs" />
     <Compile Include="Restaurants.cs" />
     <Compile Include="RestaurantSearch.cs" />
     <Compile Include="RestaurantSort.cs" />
-    <Compile Include="ReviewDisplays.cs" />
+    <Compile Include="RatingDisplays.cs" />
     <Compile Include="Serialize.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -37,9 +37,27 @@ namespace Dubuche.BL.Tests
         [TestMethod()]
         public void BetaSortingTest()
         {
-            //Assert.AreEqual();
-        }
+            List<Restaurants> restsTests = new List<Restaurants>();//arrange
+            Restaurants rests = new Restaurants("def"); //arrange
+            restsTests.Add(rests); //arrange
+            List<Restaurants> expected = new List<Restaurants>();//arrange
 
+            Restaurants rests2 = new Restaurants("abc"); //arrange
+            restsTests.Add(rests2); //arrange
+
+            Restaurants rests3 = new Restaurants("def"); //arrange
+            expected.Add(rests3); //arrange
+
+            Restaurants rests4 = new Restaurants("abc"); //arrange
+            expected.Add(rests4); //arrange
+
+            List<Restaurants> actual = RestaurantSort.BetaSorting(restsTests); //act
+
+            Assert.AreEqual(expected[0].Name, actual[0].Name); //assert
+            Assert.AreEqual(expected[1].Name, actual[1].Name); //assert
+
+        }
+         
         
     }
 }
